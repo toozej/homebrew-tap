@@ -3,7 +3,7 @@ cask "go-find-liquor" do
   name "go-find-liquor"
   desc "Oregon Liquor Search Notification Service"
   homepage "https://github.com/toozej/go-find-liquor"
-  version "1.3.0"
+  version "1.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,12 +19,12 @@ cask "go-find-liquor" do
     on_intel do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "0982c3e267627ea26d17faf73b0b9479572f476986ec7ef69bbc24fb22db6671"
+      sha256 "03597f3c6d409bbaed317e4a42bcbe1eb46f8a6c82f849aa127af6004075d736"
     end
     on_arm do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "e366c04b962a1ee0e3acef25378b4ea2fb4d473fd10515e164df2c57af38765b"
+      sha256 "2521488d4dfc54f5b377333c33e9599455343eb807aabdcac2a3bce3a5646768"
     end
   end
 
@@ -32,12 +32,12 @@ cask "go-find-liquor" do
     on_intel do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "75df853076b0d3a39274c11dc17f17c16b533ff548a6475d260f6462ae1b1b82"
+      sha256 "368775fa33c1710ded453bd302dc650cfaa01156bfd297aefd03b6bc733190e5"
     end
     on_arm do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "761ee560b4ded3cc4fb17ee2e1d51ca36de4dacb967c946cbc5812e430930fb3"
+      sha256 "8753c29728f7814ceb369c56728068ecaf98863a210091a35c33a7065d2672fb"
     end
   end
 
