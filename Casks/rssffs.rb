@@ -19,12 +19,12 @@ cask "rssffs" do
     on_intel do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "129a1b6abb6d4f221e20384beb7f85c27bcd5ed382e6a516fdab8628ae05b01f"
+      sha256 "844923e26f8365e1a1694da3ac7f1ef7d8bb0be44b1544e6c9ceda3d135296d1"
     end
     on_arm do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "1d3f7ec6571c54f47cbf44a8708c51ccf6721bb794d29d80226182ec6cf7fc85"
+      sha256 "d4d7525bace50796e140a6ef31b5bc76573b8014251bb1d126be7af1b3b547b9"
     end
   end
 
@@ -32,12 +32,12 @@ cask "rssffs" do
     on_intel do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "7a4f64f9dda610f2bbbdedda6eb6df28f7a12342483a99d7df87405e39cfc5de"
+      sha256 "bd786d20f2563308bb6486fad4d5012a50a89f4061c4935eb7cc9170b62e908a"
     end
     on_arm do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Linux_arm64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "6f0c362ce9a11f4a1aa284710dff766b71103af8acdc8500ab7760b80e5a4d8f"
+      sha256 "1588044ff37dac999fc5826c13febbdd5d8736a040d65d6cd9ac08ac7a94198c"
     end
   end
 
