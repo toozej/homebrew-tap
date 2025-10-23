@@ -19,12 +19,12 @@ cask "kmhd2spotify" do
     on_intel do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "0ca909a82faa22b20ffb49f8e3896c54ee0f97b46c8b388baf45c4bfcfff95f9"
+      sha256 "e4e3afa001e5c9eb00e16f65127b611a6950eef3991fc20cfaf75f2b1e20bdb5"
     end
     on_arm do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "70e68fcc061ea9aa8fcf65ab41546eb817cfb1a77a46a382e17b509e3c97c12e"
+      sha256 "706190ffebf7d424f748bbd3f7d3b9cbd6fe8078358f226e315ae16eede002ec"
     end
   end
 
@@ -32,12 +32,12 @@ cask "kmhd2spotify" do
     on_intel do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "e6c0ec848a61309c6ffba5cb847cd0e09a5a0c049d42e8c711b2de1491721ccd"
+      sha256 "7c727666927c4d7903433c9cefc7e4c9a18f263534a340a12d7d03dd0d1240a1"
     end
     on_arm do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Linux_arm64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "382d98c8a4a14f8d81bbb9fe40cd6627bf43ad8dee66157c10b94eacc1a3bbe7"
+      sha256 "39a3eec00f887479efe02c3c7f458938914daedead680c4b1dbb2a4efd041448"
     end
   end
 
