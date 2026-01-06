@@ -3,7 +3,7 @@ cask "go-listen" do
   name "go-listen"
   desc "go-listen is a web application that allows users to search for artists and automatically add their top 5 songs to designated incoming playlists on Spotify"
   homepage "https://github.com/toozej/go-listen"
-  version "1.1.0"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,12 +19,12 @@ cask "go-listen" do
     on_intel do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "da2f915f20637b1e5f64f85a25ef092974ab9bbe05ecb06777c08e6a181e1732"
+      sha256 "6b4e75cc9e15f54857c7e667c0a8a9bb6692350df6aa4e732d4e23b83fff89f0"
     end
     on_arm do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "718ae48f7410756394db9d3c61e570ba3b9d7accce9642ffb6ee25cc9b8f79b8"
+      sha256 "ba1730c3825cd6818c4251114819324a7f12acd6a32c84173306dbc9524a6299"
     end
   end
 
@@ -32,12 +32,12 @@ cask "go-listen" do
     on_intel do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "8528e7416164e034dc7c58f311065fa5ecd090bc9fc4ad8dc94ad671e495e3de"
+      sha256 "14fdc2674f0f9979f290e7736a78dc57edcfd796133246ab11d6d3811dcb941c"
     end
     on_arm do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "8b00fd1aeea4c24f73406df3617f52d397c425ea106eeb597dfdf1a631c12ccb"
+      sha256 "ceeb86be7f0c4ee0a4ab6d7666af9728f31c8776136d1175c46e918443980a27"
     end
   end
 
