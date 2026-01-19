@@ -10,7 +10,7 @@ cask "terranotate" do
   end
 
   binary "terranotate"
-  manpage "man/terranotate.1.gz"
+  manpage "manpages/terranotate.1.gz"
   bash_completion "completions/terranotate.bash"
   zsh_completion "completions/terranotate.zsh"
   fish_completion "completions/terranotate.fish"
@@ -19,12 +19,12 @@ cask "terranotate" do
     on_intel do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "f1193c4afa04c2c353299adcf0dc4dd8f6c02a86ccd67d4835c6912c1db20b8c"
+      sha256 "325b27b3ee5e54c12ee96d280fa355e261f62550d405833fde06d14a34317097"
     end
     on_arm do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "e554f24fcf259a78c5de78850a097aa34fbf7ad040ba42630553f97e7a53160b"
+      sha256 "33dc528c7a7f182e84e9d91d3839e6ad8f21c20122d78665e794b0e4652cc109"
     end
   end
 
@@ -32,12 +32,12 @@ cask "terranotate" do
     on_intel do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "417337d644f663b14f047961107c3cdd0f5e9722e533c492612a552154882d89"
+      sha256 "098e0be7b46858696bde47a11c5191d4efd587e8562740041b5cdf35cfe87f9b"
     end
     on_arm do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Linux_arm64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "21a73c73a3f17315d44472057af783c9f80d23228ae1c2468b75df3699d785a0"
+      sha256 "385b3b807058abb4550b3bfd8fc5376bacbe522a139d1f601e12666057d0f461"
     end
   end
 
