@@ -3,14 +3,14 @@ cask "go-find-liquor" do
   name "go-find-liquor"
   desc "Oregon Liquor Search Notification Service"
   homepage "https://github.com/toozej/go-find-liquor"
-  version "1.3.1"
+  version "1.3.2"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "go-find-liquor"
-  manpage "man/go-find-liquor.1.gz"
+  manpage "manpages/go-find-liquor.1.gz"
   bash_completion "completions/go-find-liquor.bash"
   zsh_completion "completions/go-find-liquor.zsh"
   fish_completion "completions/go-find-liquor.fish"
@@ -19,12 +19,12 @@ cask "go-find-liquor" do
     on_intel do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "03597f3c6d409bbaed317e4a42bcbe1eb46f8a6c82f849aa127af6004075d736"
+      sha256 "defbef2ebce536b89dead8bc1fb0218583ba523702c0f9a1c4ceb769cf1d8756"
     end
     on_arm do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "2521488d4dfc54f5b377333c33e9599455343eb807aabdcac2a3bce3a5646768"
+      sha256 "0f778f5ff48945911fad350a02e188c7569391cf9d5169c966988a76f3da87dc"
     end
   end
 
@@ -32,12 +32,12 @@ cask "go-find-liquor" do
     on_intel do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "368775fa33c1710ded453bd302dc650cfaa01156bfd297aefd03b6bc733190e5"
+      sha256 "37d8797b059d142e572d8c095339d4848b23d55535b7d00e95dedc876c6e5510"
     end
     on_arm do
       url "https://github.com/toozej/go-find-liquor/releases/download/v#{version}/go-find-liquor_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-find-liquor/releases/download"
-      sha256 "8753c29728f7814ceb369c56728068ecaf98863a210091a35c33a7065d2672fb"
+      sha256 "3ba09818a432472dd62dea3591fc7c930a92824f48deb7edfe63e5e26e157836"
     end
   end
 
