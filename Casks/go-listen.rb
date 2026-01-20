@@ -3,14 +3,14 @@ cask "go-listen" do
   name "go-listen"
   desc "go-listen is a web application that allows users to search for artists and automatically add their top 5 songs to designated incoming playlists on Spotify"
   homepage "https://github.com/toozej/go-listen"
-  version "1.2.0"
+  version "1.2.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "go-listen"
-  manpage "man/go-listen.1.gz"
+  manpage "manpages/go-listen.1.gz"
   bash_completion "completions/go-listen.bash"
   zsh_completion "completions/go-listen.zsh"
   fish_completion "completions/go-listen.fish"
@@ -19,12 +19,12 @@ cask "go-listen" do
     on_intel do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "6b4e75cc9e15f54857c7e667c0a8a9bb6692350df6aa4e732d4e23b83fff89f0"
+      sha256 "9ca7bfcc9e3d0426b7070b40e378b6735435df9e92fe9b1bab1dcfa381d75923"
     end
     on_arm do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "ba1730c3825cd6818c4251114819324a7f12acd6a32c84173306dbc9524a6299"
+      sha256 "29872fe123d7726d3ad9d76dfb054631ffa7ce494ab57831a0f583e35b4a0963"
     end
   end
 
@@ -32,12 +32,12 @@ cask "go-listen" do
     on_intel do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "14fdc2674f0f9979f290e7736a78dc57edcfd796133246ab11d6d3811dcb941c"
+      sha256 "9fe4e3c268804273b90ac531a85fc58b5ebf15202be59b1553dae2646bd2f03d"
     end
     on_arm do
       url "https://github.com/toozej/go-listen/releases/download/v#{version}/go-listen_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-listen/releases/download"
-      sha256 "ceeb86be7f0c4ee0a4ab6d7666af9728f31c8776136d1175c46e918443980a27"
+      sha256 "8966e12f7f2ff50f7c9ffbbf6efd9d6864b6c8c7dfd9429aebfa92ba670bb92a"
     end
   end
 
