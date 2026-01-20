@@ -3,14 +3,14 @@ cask "ghreleases2rss" do
   name "ghreleases2rss"
   desc "Find liquor stores and their inventory"
   homepage "https://github.com/toozej/ghreleases2rss"
-  version "1.1.0"
+  version "1.1.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "ghreleases2rss"
-  manpage "man/ghreleases2rss.1.gz"
+  manpage "manpages/ghreleases2rss.1.gz"
   bash_completion "completions/ghreleases2rss.bash"
   zsh_completion "completions/ghreleases2rss.zsh"
   fish_completion "completions/ghreleases2rss.fish"
@@ -19,12 +19,12 @@ cask "ghreleases2rss" do
     on_intel do
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
-      sha256 "e20d882ab6b4f11eafed3495da043c57f33c5183eb8619734aa2127494ddffa2"
+      sha256 "ccbf41b8fdd12a85ca06c67aebe1b77ef2b2fb76a0923f684c0d3000fe036550"
     end
     on_arm do
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
-      sha256 "03573cad95b02d61859dc6f14afd8d7a35bc557f83f4764c1da6328d1ca2e3ca"
+      sha256 "c28648e2c33d6936084a3aced8fb7ac767d82ff05971134e41c0b24d21acc60e"
     end
   end
 
@@ -32,12 +32,12 @@ cask "ghreleases2rss" do
     on_intel do
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
-      sha256 "b8bbc91a5a4558ddd31fb9217919fb961b29787c000c442fbcdf0a861418aa0b"
+      sha256 "9fb78e042128dc8d73ac0be274742393e5b14228e572406e8dfb2e372a6d7f9b"
     end
     on_arm do
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Linux_arm64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
-      sha256 "ff35c2862a2f8bba49982c4597ce2371519bac9e28d3aa0cfd89c8ab6b97bfa6"
+      sha256 "5afdd27335ab9f620a91a44be0ea7b08fe05e03f09674749650306c60b03efb4"
     end
   end
 
