@@ -3,14 +3,14 @@ cask "golang-starter" do
   name "golang-starter"
   desc "Golang starter template"
   homepage "https://github.com/toozej/golang-starter"
-  version "1.3.0"
+  version "1.3.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "golang-starter"
-  manpage "man/golang-starter.1.gz"
+  manpage "manpages/golang-starter.1.gz"
   bash_completion "completions/golang-starter.bash"
   zsh_completion "completions/golang-starter.zsh"
   fish_completion "completions/golang-starter.fish"
@@ -19,12 +19,12 @@ cask "golang-starter" do
     on_intel do
       url "https://github.com/toozej/golang-starter/releases/download/v#{version}/golang-starter_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/golang-starter/releases/download"
-      sha256 "37763e3abea43e908be57d4b8023796df0069bb85aa7fa0f0f6ded6706db1ceb"
+      sha256 "1f5c86929b45c5ea8fb3aab13491c7c5cdd3ae7d6ae4e42f05093c456b8fd49b"
     end
     on_arm do
       url "https://github.com/toozej/golang-starter/releases/download/v#{version}/golang-starter_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/golang-starter/releases/download"
-      sha256 "f15ad22dfe41acbb5b413357578591906087406d8dbf2df633293a8a2ff79a01"
+      sha256 "ef7e5193b5b78171e60a961acfbdb5584d828a5e9058c023772370321dc67e05"
     end
   end
 
@@ -32,12 +32,12 @@ cask "golang-starter" do
     on_intel do
       url "https://github.com/toozej/golang-starter/releases/download/v#{version}/golang-starter_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/golang-starter/releases/download"
-      sha256 "56479040ba5969a54cf4e50834cd20818822aa91e675aaf770cb1f7495df3149"
+      sha256 "3640941fecd62b7eabc20acae404e19a3358b6ab196fbd6e6302b7019c7e8cbb"
     end
     on_arm do
       url "https://github.com/toozej/golang-starter/releases/download/v#{version}/golang-starter_Linux_arm64.tar.gz",
         verified: "github.com/toozej/golang-starter/releases/download"
-      sha256 "d6655736baf035e29b63f96f29102786bff82dc3038bc602556c606e8bd93c95"
+      sha256 "c2387fa07eeb476f4b311f1cfbe8807d369928cf0fd752587b289d29350e5495"
     end
   end
 
