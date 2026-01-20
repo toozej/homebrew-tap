@@ -3,14 +3,14 @@ cask "waffles" do
   name "waffles"
   desc "LLM toolchain orchestrator for local development workflows"
   homepage "https://github.com/toozej/waffles"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "waffles"
-  manpage "man/waffles.1.gz"
+  manpage "manpages/waffles.1.gz"
   bash_completion "completions/waffles.bash"
   zsh_completion "completions/waffles.zsh"
   fish_completion "completions/waffles.fish"
@@ -19,12 +19,12 @@ cask "waffles" do
     on_intel do
       url "https://github.com/toozej/waffles/releases/download/v#{version}/waffles_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/waffles/releases/download"
-      sha256 "9eecee6e257e55311b0b574972246bd750683950c8990191ecbde136e54e4b9b"
+      sha256 "86dde8d2b34d529431ca2e1665c6c4aaaed23824a0771f11e90f3fa6632189d0"
     end
     on_arm do
       url "https://github.com/toozej/waffles/releases/download/v#{version}/waffles_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/waffles/releases/download"
-      sha256 "bfaea44742da13dde21268358b6378264c9919cc6e0540099fcb2794fd79b2e1"
+      sha256 "9e1bc6319c17b7a9bf11c61f7487875da6b9db2f42c519fc584a716db67e41cb"
     end
   end
 
@@ -32,12 +32,12 @@ cask "waffles" do
     on_intel do
       url "https://github.com/toozej/waffles/releases/download/v#{version}/waffles_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/waffles/releases/download"
-      sha256 "fb13a83eb53ba3943f8967beb70aa7d190f417f54bc7daac45cd9b26fce22a94"
+      sha256 "7994d38c5f460514bdbcf3df2ef9c8a140caff2bd38b7b81496908ed31797733"
     end
     on_arm do
       url "https://github.com/toozej/waffles/releases/download/v#{version}/waffles_Linux_arm64.tar.gz",
         verified: "github.com/toozej/waffles/releases/download"
-      sha256 "4006a4814f73ff7abd682cbcbf1e3181fe72c2259c490fae721d69719f8fa137"
+      sha256 "b9068353d8eb9fd4cb2faebc92be2077fdb08e1193dc2e4d643b1fa6b833c576"
     end
   end
 
