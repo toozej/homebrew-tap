@@ -3,14 +3,14 @@ cask "url2anki" do
   name "url2anki"
   desc "Generate Anki flashcards from a URL"
   homepage "https://github.com/toozej/url2anki"
-  version "1.1.0"
+  version "1.1.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "url2anki"
-  manpage "man/url2anki.1.gz"
+  manpage "manpages/url2anki.1.gz"
   bash_completion "completions/url2anki.bash"
   zsh_completion "completions/url2anki.zsh"
   fish_completion "completions/url2anki.fish"
@@ -19,12 +19,12 @@ cask "url2anki" do
     on_intel do
       url "https://github.com/toozej/url2anki/releases/download/v#{version}/url2anki_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/url2anki/releases/download"
-      sha256 "0573483041a52dbab1f4713328015af099f39a18a68b4f056748d44b12837ed8"
+      sha256 "19923b27ae3f2ce032afe3d39819b7f8711d3b4bf30862bd42e1410e5891b78b"
     end
     on_arm do
       url "https://github.com/toozej/url2anki/releases/download/v#{version}/url2anki_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/url2anki/releases/download"
-      sha256 "d7c1ca756cc2bf5041fdbf712721ae24e53c65020471f9c2d175417123cd746d"
+      sha256 "fe2a2f39e9b5ac9a600cd4b4882e471b013c2743c0c6b53a91a041fbd4b49a42"
     end
   end
 
@@ -32,12 +32,12 @@ cask "url2anki" do
     on_intel do
       url "https://github.com/toozej/url2anki/releases/download/v#{version}/url2anki_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/url2anki/releases/download"
-      sha256 "1c4806b41b8afca9001d7c86675eeac955e79bf2b7672d8a52473f1ffeef0d89"
+      sha256 "1c99aafb285f58faa630b8383b4f6646fabbb3524187a322777d1d40f36ae742"
     end
     on_arm do
       url "https://github.com/toozej/url2anki/releases/download/v#{version}/url2anki_Linux_arm64.tar.gz",
         verified: "github.com/toozej/url2anki/releases/download"
-      sha256 "4b663157f135540230c871a21a34ffe1290a6d9153ebda1c4bd61c35497d3ab0"
+      sha256 "d048756251f81f911837ae4c86e8933fb2b812b7c3935f309d4ab9d007568a18"
     end
   end
 
