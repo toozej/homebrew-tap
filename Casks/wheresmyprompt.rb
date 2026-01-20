@@ -3,14 +3,14 @@ cask "wheresmyprompt" do
   name "wheresmyprompt"
   desc "Find liquor stores and their inventory"
   homepage "https://github.com/toozej/wheresmyprompt"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "wheresmyprompt"
-  manpage "man/wheresmyprompt.1.gz"
+  manpage "manpages/wheresmyprompt.1.gz"
   bash_completion "completions/wheresmyprompt.bash"
   zsh_completion "completions/wheresmyprompt.zsh"
   fish_completion "completions/wheresmyprompt.fish"
@@ -19,12 +19,12 @@ cask "wheresmyprompt" do
     on_intel do
       url "https://github.com/toozej/wheresmyprompt/releases/download/v#{version}/wheresmyprompt_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/wheresmyprompt/releases/download"
-      sha256 "a7d4a348165131798174799aaa89a542bbb92b45186a9fe58d47600bb0eeb0c3"
+      sha256 "70ab6c3e35fc739afe1a3d2a3164661209c30f72b72eaa773de4e4645bfab642"
     end
     on_arm do
       url "https://github.com/toozej/wheresmyprompt/releases/download/v#{version}/wheresmyprompt_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/wheresmyprompt/releases/download"
-      sha256 "30453666fe19ceb17c45f720f466962218469dc3d42a81f3cd3cedc08b30b708"
+      sha256 "250f0e4d72aeab5357f3cd91e9ba770b2ee26e2384b6f96736b6e9c8cb71b744"
     end
   end
 
@@ -32,12 +32,12 @@ cask "wheresmyprompt" do
     on_intel do
       url "https://github.com/toozej/wheresmyprompt/releases/download/v#{version}/wheresmyprompt_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/wheresmyprompt/releases/download"
-      sha256 "feb62612c48aba0bd8be4dce430706ac5d9ce7eaf6052e20e1b8718a8b057c02"
+      sha256 "874ed1b39bd7a9ef56d5ced2e2c532ff48a9365d988c309834e1557c38907af0"
     end
     on_arm do
       url "https://github.com/toozej/wheresmyprompt/releases/download/v#{version}/wheresmyprompt_Linux_arm64.tar.gz",
         verified: "github.com/toozej/wheresmyprompt/releases/download"
-      sha256 "22b0b175304a46e08f1c92c1f7c1596dd144f22f6e3b63516c10b69095bedecc"
+      sha256 "e19967dec96d4baf5863518bd8548570ee75201a0bdae60fca273996c035ded7"
     end
   end
 
