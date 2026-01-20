@@ -3,14 +3,14 @@ cask "trails-completionist" do
   name "trails-completionist"
   desc "tools for tracking completion of trails"
   homepage "https://github.com/toozej/trails-completionist"
-  version "2.1.0"
+  version "2.1.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "trails-completionist"
-  manpage "man/trails-completionist.1.gz"
+  manpage "manpages/trails-completionist.1.gz"
   bash_completion "completions/trails-completionist.bash"
   zsh_completion "completions/trails-completionist.zsh"
   fish_completion "completions/trails-completionist.fish"
@@ -19,12 +19,12 @@ cask "trails-completionist" do
     on_intel do
       url "https://github.com/toozej/trails-completionist/releases/download/v#{version}/trails-completionist_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/trails-completionist/releases/download"
-      sha256 "a6aa271644beeedb580ce1f7c48c65d4b190c22eb01d5c08b1e679d0f6eaa4e2"
+      sha256 "6cc230eb91ca2da4ad74b20f37680390a10db88d77e5aa14c615e9e0b831d4f7"
     end
     on_arm do
       url "https://github.com/toozej/trails-completionist/releases/download/v#{version}/trails-completionist_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/trails-completionist/releases/download"
-      sha256 "51f9ca160bde75075e0015751339ee72ea5ebd5a608b998621d8ffe784d055fd"
+      sha256 "fd9a394184592c14ebe0e3896cc4719ffb2b5579374f178620d531dfc666aa2b"
     end
   end
 
@@ -32,12 +32,12 @@ cask "trails-completionist" do
     on_intel do
       url "https://github.com/toozej/trails-completionist/releases/download/v#{version}/trails-completionist_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/trails-completionist/releases/download"
-      sha256 "7add99785297b5144ec831c9647c123b727b48fcd159cc74d33c0d1b3ecf6634"
+      sha256 "e2683728d43adfef89ab9ada2a0b33dc7e5496386326487fd94d2f67ceadec2a"
     end
     on_arm do
       url "https://github.com/toozej/trails-completionist/releases/download/v#{version}/trails-completionist_Linux_arm64.tar.gz",
         verified: "github.com/toozej/trails-completionist/releases/download"
-      sha256 "e6c7c926143b2fe3e5d49e44c999e1dbff6263d5b77754aa7d95369c51faff5a"
+      sha256 "841e8969d61adc95f9ea371110a363f1bc14c11542736227e8f15adde9282f4f"
     end
   end
 
