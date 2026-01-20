@@ -3,14 +3,14 @@ cask "kmhd2spotify" do
   name "kmhd2spotify"
   desc "Golang starter template"
   homepage "https://github.com/toozej/kmhd2spotify"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "kmhd2spotify"
-  manpage "man/kmhd2spotify.1.gz"
+  manpage "manpages/kmhd2spotify.1.gz"
   bash_completion "completions/kmhd2spotify.bash"
   zsh_completion "completions/kmhd2spotify.zsh"
   fish_completion "completions/kmhd2spotify.fish"
@@ -19,12 +19,12 @@ cask "kmhd2spotify" do
     on_intel do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "d711522f11eeb59f2b4fd335a7b8c6ada0cb65f2660de63e6a94c55a82eaa147"
+      sha256 "bf975255fa3a2b4da04d79c8a276461b2e16d2dd484c825c69f9e70d5aeeeec1"
     end
     on_arm do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "b71b77bf479219055ef28f5c2c153630de756ff914549497e8103370b2d25270"
+      sha256 "2f2c9fb933c81d17161920f0f4ee9fec5a58bcc41ccabe6382db7622069cbd11"
     end
   end
 
@@ -32,12 +32,12 @@ cask "kmhd2spotify" do
     on_intel do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "ff64190dc28ceaefbf5b24a2e050e23fe0c345371be03733a698b106ab23f8fb"
+      sha256 "2aab70720575b6ba0e9a02425e1c54a4976125f9286e4f90ca8ac809b87b4420"
     end
     on_arm do
       url "https://github.com/toozej/kmhd2spotify/releases/download/v#{version}/kmhd2spotify_Linux_arm64.tar.gz",
         verified: "github.com/toozej/kmhd2spotify/releases/download"
-      sha256 "0cbd6e2b45865fde6344d33b07a56638744e1eab67ad224db953031a53de7312"
+      sha256 "373868f03183a7c499f83d3bd9b020220e47ceca247d9702bcc14bf364dc6fac"
     end
   end
 
