@@ -3,14 +3,14 @@ cask "rssffs" do
   name "rssffs"
   desc "RSS Feed Finder [and] Subscriber"
   homepage "https://github.com/toozej/RSSFFS"
-  version "1.3.0"
+  version "1.3.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "rssffs"
-  manpage "man/RSSFFS.1.gz"
+  manpage "manpages/RSSFFS.1.gz"
   bash_completion "completions/RSSFFS.bash"
   zsh_completion "completions/RSSFFS.zsh"
   fish_completion "completions/RSSFFS.fish"
@@ -19,12 +19,12 @@ cask "rssffs" do
     on_intel do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "acdb9603892a950c19e54b6e091b405dc550635fa3aa6ea44bc810180f37015a"
+      sha256 "b65d2304159bf226592c88f9312b72082cf9f9938823d78c607a35162384f53d"
     end
     on_arm do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "38fea2b37f3926d94f61a4424377a67e522a03949d5d79f2ceced966482421f3"
+      sha256 "ab2ba16492cbd40313a64c8479979d9d062e9d93f81546fc4864e9b803989268"
     end
   end
 
@@ -32,12 +32,12 @@ cask "rssffs" do
     on_intel do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "f5886dd20a3eefa577920cefae6d72724cd061c31af7b068364bf07c7b446102"
+      sha256 "8b23eec4f894c2bdc817d42145233045274d5fcaa57da8d9babd5a65384f54d2"
     end
     on_arm do
       url "https://github.com/toozej/RSSFFS/releases/download/v#{version}/RSSFFS_Linux_arm64.tar.gz",
         verified: "github.com/toozej/RSSFFS/releases/download"
-      sha256 "a4a1840af0d3dd4124c967db531a23411e4b6b6368bb7b5d0ec0afdc86dd3fab"
+      sha256 "89d1530a602bf4faf724a631e290db704ac2a46bfb9d4d5a4741067e2f62ce5c"
     end
   end
 
