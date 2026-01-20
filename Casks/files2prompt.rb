@@ -3,14 +3,14 @@ cask "files2prompt" do
   name "files2prompt"
   desc "LLM Prompt Generator From Local Files"
   homepage "https://github.com/toozej/files2prompt"
-  version "1.6.1"
+  version "1.6.2"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "files2prompt"
-  manpage "man/files2prompt.1.gz"
+  manpage "manpages/files2prompt.1.gz"
   bash_completion "completions/files2prompt.bash"
   zsh_completion "completions/files2prompt.zsh"
   fish_completion "completions/files2prompt.fish"
@@ -19,12 +19,12 @@ cask "files2prompt" do
     on_intel do
       url "https://github.com/toozej/files2prompt/releases/download/v#{version}/files2prompt_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/files2prompt/releases/download"
-      sha256 "bba11a49ede737ea53cb809172a93a5496dcf893739c22f875351bd51e1116a4"
+      sha256 "533f78f51e39f1b8bbd6e04bcb3d469578ca81b6b9b9001f85ef57a7aaa77f06"
     end
     on_arm do
       url "https://github.com/toozej/files2prompt/releases/download/v#{version}/files2prompt_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/files2prompt/releases/download"
-      sha256 "6cd5f521b7428027227d4820085fb74df1eb0962d466b9c9947c535579d5db68"
+      sha256 "45778901201c9488ad9a7592516c49de4485d3b59f5a9e3e65bb9e373ab9ea96"
     end
   end
 
@@ -32,12 +32,12 @@ cask "files2prompt" do
     on_intel do
       url "https://github.com/toozej/files2prompt/releases/download/v#{version}/files2prompt_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/files2prompt/releases/download"
-      sha256 "46c83dbfc5dfa5b86f613cf5cd10f54ced9adba93f5797071a0267413933f41f"
+      sha256 "07f29413794af553480a9a26432520710dff3d84262bac88d7f9a41e265e9317"
     end
     on_arm do
       url "https://github.com/toozej/files2prompt/releases/download/v#{version}/files2prompt_Linux_arm64.tar.gz",
         verified: "github.com/toozej/files2prompt/releases/download"
-      sha256 "1847bb93229a9e8141d55f70db8b468442dda236a5618ec4cb04e0602fe57cce"
+      sha256 "24a2315fb607afebf69b9a5046df656c14f3b024ae827ebd49499894e5017f15"
     end
   end
 
