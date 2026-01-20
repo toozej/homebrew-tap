@@ -3,14 +3,14 @@ cask "photos2map" do
   name "photos2map"
   desc "Generates a map on a HTML page or GPX file from GPS coordinates in images"
   homepage "https://github.com/toozej/photos2map"
-  version "1.1.0"
+  version "1.1.1"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "photos2map"
-  manpage "man/photos2map.1.gz"
+  manpage "manpages/photos2map.1.gz"
   bash_completion "completions/photos2map.bash"
   zsh_completion "completions/photos2map.zsh"
   fish_completion "completions/photos2map.fish"
@@ -19,12 +19,12 @@ cask "photos2map" do
     on_intel do
       url "https://github.com/toozej/photos2map/releases/download/v#{version}/photos2map_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/photos2map/releases/download"
-      sha256 "2372dbf66c9da3e4e9ef1cd6dd254c791b8d91bb23dc74cd73fddd40c7a4ee37"
+      sha256 "45ec4486233bbea11c4d9677d812fce048e5275dab467e01e33997eba489dd5e"
     end
     on_arm do
       url "https://github.com/toozej/photos2map/releases/download/v#{version}/photos2map_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/photos2map/releases/download"
-      sha256 "290b9de644982ee7e0a1005fbaa18a175a8eda87dcd1ace52f17a242bc774162"
+      sha256 "ab4902b8f6071974aaafc76cf09a2f5282e2c35cff03d89c477738b6e206f1be"
     end
   end
 
@@ -32,12 +32,12 @@ cask "photos2map" do
     on_intel do
       url "https://github.com/toozej/photos2map/releases/download/v#{version}/photos2map_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/photos2map/releases/download"
-      sha256 "90eecb2186b7fb55fbfcb46c6c91783f44de80c8b1b80b3148a609c486668677"
+      sha256 "3d47af8db176423606fc07d0043171f66fb6e78fc7e25bc4efc28ed6875ebbe1"
     end
     on_arm do
       url "https://github.com/toozej/photos2map/releases/download/v#{version}/photos2map_Linux_arm64.tar.gz",
         verified: "github.com/toozej/photos2map/releases/download"
-      sha256 "d04cb3cf84550ce02e5d05d0dfb8a8d5cbe081ae7346305449e2d472eee64235"
+      sha256 "e05661a3f3dacf515834ad5d3dd7d36b56ef5a213bb69bb32433c82625f5802e"
     end
   end
 
