@@ -3,7 +3,7 @@ cask "terranotate" do
   name "terranotate"
   desc "Terraform Comment Parser and Validator"
   homepage "https://github.com/toozej/terranotate"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,12 +19,12 @@ cask "terranotate" do
     on_intel do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "325b27b3ee5e54c12ee96d280fa355e261f62550d405833fde06d14a34317097"
+      sha256 "a90f43f7c7b3d834316baa3c19a2fcd86ad3353d8e39019e1c982663328d56da"
     end
     on_arm do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "33dc528c7a7f182e84e9d91d3839e6ad8f21c20122d78665e794b0e4652cc109"
+      sha256 "8d3758c4fe7a556b80c00cdb9598e9584a223feb55ef953c76c656e350931396"
     end
   end
 
@@ -32,12 +32,12 @@ cask "terranotate" do
     on_intel do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "098e0be7b46858696bde47a11c5191d4efd587e8562740041b5cdf35cfe87f9b"
+      sha256 "8371d1f5f1a187e98673d164ca428db9ec2ccf5f7828ec73499b8cec02732bc5"
     end
     on_arm do
       url "https://github.com/toozej/terranotate/releases/download/v#{version}/terranotate_Linux_arm64.tar.gz",
         verified: "github.com/toozej/terranotate/releases/download"
-      sha256 "385b3b807058abb4550b3bfd8fc5376bacbe522a139d1f601e12666057d0f461"
+      sha256 "0c8bfae85acba78925788346ac845b14bbf6c5e35c4ff71578f6962bbfba52ee"
     end
   end
 
