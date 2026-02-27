@@ -15,12 +15,12 @@ cask "podgrab" do
     on_intel do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "db06a1e04409c4696b2a87b27142961093919384315e32d2ec9a9b144f41f9cd"
+      sha256 "0572aefe0fd619006356761a987b13958fa04599bd352231b84a2cb6ccab266c"
     end
     on_arm do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "c577274d75b7064b8339f89b5beb8b7fce469e71b48eea5f97699b08fe0246f4"
+      sha256 "117d97a9d49139f847ed08f526b1924b9a66060581dd55276c7673a1e9debffc"
     end
   end
 
@@ -28,12 +28,12 @@ cask "podgrab" do
     on_intel do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "dacff1eb41b8a6bc7737f2ee13dc8ad5a1a0f29fcd673ee1344189d200bce19b"
+      sha256 "91abced08ca837ed7fdf211dc3c61d64470cf3b14c49018db50e446d1faecede"
     end
     on_arm do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Linux_arm64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "f42c3f0f877be7c7f7d625b58e45b41b247c7ccabc1d624baf36bff75559ef97"
+      sha256 "f23ae78d36cf6b9d0047b4136a25648458ab5a451a8daad07614c4f7edf45e71"
     end
   end
 
