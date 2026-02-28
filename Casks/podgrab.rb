@@ -3,7 +3,7 @@ cask "podgrab" do
   name "podgrab"
   desc "Self-hosted podcast manager"
   homepage "https://github.com/toozej/podgrab"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "podgrab" do
     on_intel do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "3337d8c9f4201005578ce8cd1e70db233451cbfe2f9599989f0a40c1a1cfec6c"
+      sha256 "e0e9c133af25d9a7ccce816ab682153313322832e9ff2a1268ad3c77a0dff0e1"
     end
     on_arm do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "aa5ac00bf61f75ff161c7ed7a38042cbad69045b8fb3ade09dc8881c25a68ad8"
+      sha256 "ff7e7f5e91bff10c542d2a43f0299607e87913de05e9196ee1e6eca64ce1d51e"
     end
   end
 
@@ -28,12 +28,12 @@ cask "podgrab" do
     on_intel do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "f6e5eb394eb1e79b5d8f79bc418b15b3986112afb49844888a59a29b12bc1f24"
+      sha256 "01e43a29b7c1a8d12f0c5b6a8995f1940dce42dbd4d77772805893021124e7ee"
     end
     on_arm do
       url "https://github.com/toozej/podgrab/releases/download/v#{version}/podgrab_Linux_arm64.tar.gz",
         verified: "github.com/toozej/podgrab/releases/download"
-      sha256 "70addf06ff8c768457c719bdd2ca9b050cb75d5e42c5f56dcde7da2f4d1beb0f"
+      sha256 "b2464330151ba79d9682030bd4e1e6bafea7332f9c6e85773a2d5c87ca26317a"
     end
   end
 
