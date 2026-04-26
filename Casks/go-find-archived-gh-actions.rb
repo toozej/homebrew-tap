@@ -4,12 +4,12 @@ cask "go-find-archived-gh-actions" do
 
   on_macos do
     on_intel do
-      sha256 "7585405e3b102286116fa2bd99ee36357b7ab30f8f397b04dedbb26b4f3e6859"
+      sha256 "167e8cf403d280d64731a7b18315bdc052c0648b3abd65f8ceac2b4015345a76"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
     on_arm do
-      sha256 "5c1cc8aa9d2549c8f8a20e85dff84a31a4199bd7e3fd832fa52ab0de5d4e3722"
+      sha256 "aaabfbf46221be386612708326832a9883c058c96d2c4cb6c63bb31322fc72bf"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
@@ -17,19 +17,19 @@ cask "go-find-archived-gh-actions" do
 
   on_linux do
     on_intel do
-      sha256 "17075b34693b5fcc825737255766bd7511cc717c5f9f447ae0659a4c905a3bcf"
+      sha256 "ff77d3cedb7a368b216021f2e6fd74f47e779c129a349c52dab98022c6df2e7b"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
     on_arm do
-      sha256 "1cb2e19b8108eaf1e89c59202947da0ae4329320ed35a0e2969726f418167c82"
+      sha256 "cb542024225da1ce5da425b4170c6108d8e2e23a696330ee92920483e8c1895a"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
   end
 
   name "go-find-archived-gh-actions"
-  desc "Golang starter template"
+  desc "Find archived GitHub Actions in use in GHA Workflows with optional notifications and GH Issue creation"
   homepage "https://github.com/toozej/go-find-archived-gh-actions"
 
   livecheck do
