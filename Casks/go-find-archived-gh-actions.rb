@@ -4,12 +4,12 @@ cask "go-find-archived-gh-actions" do
 
   on_macos do
     on_intel do
-      sha256 "c9cd9fad855a1e9a4c7469b3ece2fcb86e8761135aef24012d4a9f1f4bd90b8c"
+      sha256 "7b632aa0f9ce7f55e946b5bbe1e13fe1d693a3321d8982a0b27632ee79b2c9c6"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
     on_arm do
-      sha256 "9532726164aac0d6d575bac9fd2ecf9bb95ebbeb638f83dbdd37bbdd56373c26"
+      sha256 "51a7300b3dc72ad176131bdd42eb841d1bf1da64b477dedcec8b5b7313b61a64"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
@@ -17,12 +17,12 @@ cask "go-find-archived-gh-actions" do
 
   on_linux do
     on_intel do
-      sha256 "76137dee33cdefe0eaf32afef325c6d5252d0a28d02129416028705d2df889f0"
+      sha256 "f22ee6655475615e1833cd560774614a443619496987052af681bebf7974762a"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
     on_arm do
-      sha256 "125fd9e0190956c0cbb2dc07ef17f49fea519d91c978a512371c69df295657e1"
+      sha256 "056ebc8882fc5be8536ca4720cb9717be3559afb562b7da3bdd5d0626e92b49a"
       url "https://github.com/toozej/go-find-archived-gh-actions/releases/download/v#{version}/go-find-archived-gh-actions_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-find-archived-gh-actions/releases/download"
     end
