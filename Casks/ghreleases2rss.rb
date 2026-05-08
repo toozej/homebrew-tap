@@ -4,12 +4,12 @@ cask "ghreleases2rss" do
 
   on_macos do
     on_intel do
-      sha256 "81afc994b87a97b21ba2a5254a844057a770eb86fdc3f261b4b04c7392f2c93c"
+      sha256 "d3ab2e06ae2b596bd165de92315722cd3a9c64c9198ae7cdcc576b52558b74b4"
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
     end
     on_arm do
-      sha256 "5c26c230a510b43ba433148298f276626db8941d1c0b60bbf03d9105632351a2"
+      sha256 "328f230a3ad5a30c1666c0456eee443832f328367b0a0a2e76e39305e5c73a70"
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
     end
@@ -17,12 +17,12 @@ cask "ghreleases2rss" do
 
   on_linux do
     on_intel do
-      sha256 "832e23784b8278826e4b87671188bdddef50e5576c976abdcfc4866d113c5664"
+      sha256 "39024aee570609a2e991f7d889962f147f13ee9df32c69275e345038928e2393"
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
     end
     on_arm do
-      sha256 "b3b565be2a4065d0bc2729fde11e5fbcc41dc9a23636d1bae31b8d5752ed310f"
+      sha256 "334461d5596074164a75eaae42982abde6d8353677ec8a3534e21739b0980833"
       url "https://github.com/toozej/ghreleases2rss/releases/download/v#{version}/ghreleases2rss_Linux_arm64.tar.gz",
         verified: "github.com/toozej/ghreleases2rss/releases/download"
     end
