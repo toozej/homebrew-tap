@@ -4,12 +4,12 @@ cask "go-sort-out-gh-actions" do
 
   on_macos do
     on_intel do
-      sha256 "83fedf9c1fdfda0af9fae18695efcb1b97430651ed65fb1d91316e46f1894b3d"
+      sha256 "7840b8b74c64420df3f9896be2f6bec3cac9decb20c065ce50ba958389ed268d"
       url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
     end
     on_arm do
-      sha256 "7d8a5ffa33c681ab38fbfa5348445bba84e7497dc7b8b89e3fc6255c2f09a2c4"
+      sha256 "cffd67f0ab7ce11bfd15bc0fc382eda7eac5d750bc50cfc0d74cd0fa3d85c4ea"
       url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
     end
@@ -17,12 +17,12 @@ cask "go-sort-out-gh-actions" do
 
   on_linux do
     on_intel do
-      sha256 "fe99aff34d4a6523e74dff277749dcd96741892269c3d7969ce56d30884c8cbd"
+      sha256 "346a750d3da40161a82fe2aa54c2facc02332e0f4383e7ca023adc7e476934fc"
       url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
     end
     on_arm do
-      sha256 "fb6154fe2314184521ba3779e2ed88c408295c073a03c5222bf1df82fcc0cfb8"
+      sha256 "81187bda1f68652f325da8a9e994fee4089cc7c22a92212a9287229a5295e236"
       url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Linux_arm64.tar.gz",
         verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
     end
