@@ -4,33 +4,33 @@ cask "go-sort-out-gh-actions" do
 
   on_macos do
     on_intel do
-      sha256 "1fef54fda569f05e1c481dde8641c273d324328a4ebc24062894c594f659c6af"
-      url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Darwin_x86_64.tar.gz",
-        verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
+      sha256 "a6cd16b159a1a23e7855a3a01f808b49f8174fc37859a2f1f3fa38922810b090"
+      url "https://github.com/toozej/monogo/releases/download/apps/go-sort-out-gh-actions/v#{version}/go-sort-out-gh-actions_Darwin_x86_64.tar.gz",
+        verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "fb2a23c537363f627e3967e3028bb49e1e96224286668ddf79aba08e6465412a"
-      url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Darwin_arm64.tar.gz",
-        verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
+      sha256 "f24472d984b79b4c1c4e23af4a44d01a29f43a47a22f6839c413a5e52254aadb"
+      url "https://github.com/toozej/monogo/releases/download/apps/go-sort-out-gh-actions/v#{version}/go-sort-out-gh-actions_Darwin_arm64.tar.gz",
+        verified: "github.com/toozej/monogo/releases/download"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "a7e211523a16b81f6de169b0db4a928f2e550a28d6f93bd263716d61d82668f1"
-      url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Linux_x86_64.tar.gz",
-        verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
+      sha256 "a1d2121de9e5522aaf8a7074446cc8b54fb10e5620717e577a60521048179a4b"
+      url "https://github.com/toozej/monogo/releases/download/apps/go-sort-out-gh-actions/v#{version}/go-sort-out-gh-actions_Linux_x86_64.tar.gz",
+        verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "c94dd42e060f82a7cf392be33aa7e5a16319fdbce8cd47d98686ff65e18e697a"
-      url "https://github.com/toozej/go-sort-out-gh-actions/releases/download/v#{version}/go-sort-out-gh-actions_Linux_arm64.tar.gz",
-        verified: "github.com/toozej/go-sort-out-gh-actions/releases/download"
+      sha256 "8da2550a6fce2a74af159bc6cd0e62fa54bb1ac1807854d4937247e88efb84da"
+      url "https://github.com/toozej/monogo/releases/download/apps/go-sort-out-gh-actions/v#{version}/go-sort-out-gh-actions_Linux_arm64.tar.gz",
+        verified: "github.com/toozej/monogo/releases/download"
     end
   end
 
   name "go-sort-out-gh-actions"
-  desc "Find archived GitHub Actions in use in GHA Workflows with optional notifications and GH Issue creation"
-  homepage "https://github.com/toozej/go-sort-out-gh-actions"
+  desc "Find archived, outdated, EOL runtime GitHub Actions in use in GHA Workflows with optional notifications, auto-updates, pinning, and GH Issue creation"
+  homepage "https://github.com/toozej/monogo"
 
   livecheck do
     skip "Auto-generated on release."
