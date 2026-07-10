@@ -4,12 +4,12 @@ cask "photos2map" do
 
   on_macos do
     on_intel do
-      sha256 "af4dd2da30074324c9b56cd91833cb877921ccffdcefd5712852e1d730e635b3"
+      sha256 "1868deabdcadd51afdc2a32fd682d5297939fbda301bb55409990f34033224b1"
       url "https://github.com/toozej/monogo/releases/download/apps/photos2map/v#{version}/photos2map_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "14b4e143e998d12bf81d70b4996099f22a10cbbaed8b75dcd5d31a6abace1252"
+      sha256 "2be4baa6ed0b814cd3fb1b6f00e6bc2872cf2136925c178c9e60fb15d5c96f93"
       url "https://github.com/toozej/monogo/releases/download/apps/photos2map/v#{version}/photos2map_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "photos2map" do
 
   on_linux do
     on_intel do
-      sha256 "67d5a7840377ab98209d83c061524c507c9b3e6d44f24c56ad04ba7a727e4f9e"
+      sha256 "ef84954ce4bc896b2c6964e73fc65ddf95dc7fddca1f165381fd9169a70536d9"
       url "https://github.com/toozej/monogo/releases/download/apps/photos2map/v#{version}/photos2map_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "c82933c0b8feb9ab3c029ea157d998fafa3fb21cee8634b6c31147806fb6e738"
+      sha256 "522f4bfaab10c64188c2c75374cd11cc7c28dc6fcc0a00c4b152c6fda9d63d6d"
       url "https://github.com/toozej/monogo/releases/download/apps/photos2map/v#{version}/photos2map_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
