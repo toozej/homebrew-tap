@@ -4,12 +4,12 @@ cask "gotts-it" do
 
   on_macos do
     on_intel do
-      sha256 "e20d8076e3bd0b87c02baffdd02e7795f20a2794d28d8e80296d1db0272e6aa7"
+      sha256 "b0e759820d7ae7e88ce3801f6228ad58d6d040d285a58992d2927c41d7a5a685"
       url "https://github.com/toozej/monogo/releases/download/apps/gotts-it/v#{version}/gotts-it_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "115135e33f2deb77c01373afbbb3d5a89e38a9149634de283382028e999ddfc1"
+      sha256 "f24a80f5c79d5c44e56836dfc8b6cda78b76a6729752ca7795c0b24b9c615079"
       url "https://github.com/toozej/monogo/releases/download/apps/gotts-it/v#{version}/gotts-it_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "gotts-it" do
 
   on_linux do
     on_intel do
-      sha256 "246a28a2241cff35b328adc47ed93e24594915ad22125598ce10b092a590316a"
+      sha256 "379fd98c07d5e1e461b0f7640c606d2eb03f2f4fcb9920f6ee61fe7eaeb5eb8f"
       url "https://github.com/toozej/monogo/releases/download/apps/gotts-it/v#{version}/gotts-it_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "6aa94a3daac4cf6d91eb650b04601ad1fc6fe21df98d7ab4965a00c37d055f72"
+      sha256 "3d6d2142db9868efea30d36ffb42efa900e40d461f42f9d0b95769303d647cf8"
       url "https://github.com/toozej/monogo/releases/download/apps/gotts-it/v#{version}/gotts-it_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
