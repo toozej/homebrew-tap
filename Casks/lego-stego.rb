@@ -4,12 +4,12 @@ cask "lego-stego" do
 
   on_macos do
     on_intel do
-      sha256 "21d3ec7f33c3cae09493dfba7402b7313aa467dfc645b632a0af97cdbf477793"
+      sha256 "bf6713d488efa56d9c9e17a4fc9e4dced6acf1fcb8bb4c09e487c162e0013715"
       url "https://github.com/toozej/monogo/releases/download/apps/lego-stego/v#{version}/lego-stego_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "4b620aaba5786327072417f8222bdf8383798028acd94bd09a981c859f83707e"
+      sha256 "abff7f4b7682e72e49385e119ed29c087c7b35146143ac87cc35916c6dfa88c3"
       url "https://github.com/toozej/monogo/releases/download/apps/lego-stego/v#{version}/lego-stego_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "lego-stego" do
 
   on_linux do
     on_intel do
-      sha256 "26c2a5e6e6fd51efaee86b6be2eab1e3ee6f652ba154fdfa1e1519e6725956d5"
+      sha256 "b94eaa52f45dae81995390a8f256c934a5ebfaa0a17d98689f63f77662d76b7e"
       url "https://github.com/toozej/monogo/releases/download/apps/lego-stego/v#{version}/lego-stego_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "2ffe41e5b7a2e1c6c165a49ec32aaebfe2ac0f141e559148ca0a392001165cdd"
+      sha256 "b8b929927562a5bf8af06273ceb8b168bd20c4ac5c69387276a765440aefbbc0"
       url "https://github.com/toozej/monogo/releases/download/apps/lego-stego/v#{version}/lego-stego_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
