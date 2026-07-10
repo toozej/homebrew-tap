@@ -4,12 +4,12 @@ cask "trails-completionist" do
 
   on_macos do
     on_intel do
-      sha256 "2b1c2af4544b10a1c1dac207a15a3609a7348a4a9015ff24b37999d3893b0205"
+      sha256 "4b5fc1a01d76d5c7f1c9e87d3c4d131a110d367e3e0dd01535fa67ff11cacdfd"
       url "https://github.com/toozej/monogo/releases/download/apps/trails-completionist/v#{version}/trails-completionist_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "a975bef148d9b2ad540264d99841c6627816718a965fcdf7a9fe9b41c80b18fc"
+      sha256 "18972a76c8c13674e551a7c74faca21884308a10715cdff4dd54fe5a95094679"
       url "https://github.com/toozej/monogo/releases/download/apps/trails-completionist/v#{version}/trails-completionist_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "trails-completionist" do
 
   on_linux do
     on_intel do
-      sha256 "5fd19ddc304f2196f974e27d2d7a53dcf9a275da518f7fd8f5e64badaa1914c7"
+      sha256 "5f87f6b36fc08e1eb29800df07ea446f86efaebf36a47ad34ec9be4943b1e8bc"
       url "https://github.com/toozej/monogo/releases/download/apps/trails-completionist/v#{version}/trails-completionist_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "41928c6d43594b42141934dbfa68c571d75aa389de7c00c6fc9134d51b0ca1fc"
+      sha256 "4274017ac3af1c4bbb9da494f834bd253831a109e405e682c17e63a96821e9f1"
       url "https://github.com/toozej/monogo/releases/download/apps/trails-completionist/v#{version}/trails-completionist_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
