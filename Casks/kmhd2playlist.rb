@@ -4,12 +4,12 @@ cask "kmhd2playlist" do
 
   on_macos do
     on_intel do
-      sha256 "154087e5d531df39530e1115e1d6bbbb53bc4438a8fd949b30555e0a442bc744"
+      sha256 "dbdb086a83b10588b130248f347a75517485b0806b165a2f05f22606ba0606dc"
       url "https://github.com/toozej/monogo/releases/download/apps/kmhd2playlist/v#{version}/kmhd2playlist_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "7c883b135220202a75be6f060ed733b5f142ad3ae129c440d26d5d13ae3c2612"
+      sha256 "8cca58cbff0f1829d6a0595775ef6cb2ba273dae19d1003f7d2dc2d961230265"
       url "https://github.com/toozej/monogo/releases/download/apps/kmhd2playlist/v#{version}/kmhd2playlist_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "kmhd2playlist" do
 
   on_linux do
     on_intel do
-      sha256 "f21966c3ba7ce4cc7ab83fa111313403028f08e9b04f0b403c521e1ba6c24468"
+      sha256 "a6b6e7d99948dc0c402891fd44460fad843c6b829f23013d3c3865f6e17c5f9d"
       url "https://github.com/toozej/monogo/releases/download/apps/kmhd2playlist/v#{version}/kmhd2playlist_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "fd806f585ff09c89aaaa70a0b5fc211ddcad77ba8b839ca688afb1c68ad16e54"
+      sha256 "7c672deb25cff5889ec5ba7128700027132c37ce2661d2d2dc1b94c607d02903"
       url "https://github.com/toozej/monogo/releases/download/apps/kmhd2playlist/v#{version}/kmhd2playlist_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
