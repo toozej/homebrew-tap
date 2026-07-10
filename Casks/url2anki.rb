@@ -4,12 +4,12 @@ cask "url2anki" do
 
   on_macos do
     on_intel do
-      sha256 "f9d06f3bcfdc2b93ffd3a8b761825248b0dcaf49c16114b8e018032c69f00a11"
+      sha256 "c7cc0394e85e3236c921e0e5e3c93ed8e4eae0795c380516d9800605341ecd81"
       url "https://github.com/toozej/monogo/releases/download/apps/url2anki/v#{version}/url2anki_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "13c94667fe40ab432c17a323b36cd73760d6945577eeb82082e8ccd2a0640286"
+      sha256 "cccddd9370e564a8df4f3a6f3ef3322ee17fbad0d06564238a6e7aefc39e00d8"
       url "https://github.com/toozej/monogo/releases/download/apps/url2anki/v#{version}/url2anki_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "url2anki" do
 
   on_linux do
     on_intel do
-      sha256 "de7d70a296dae38c4c73adff05c393170d8682055ab58e0e42e1f82afacc849c"
+      sha256 "87c07e6b4d0463127e62a1b5d293ee81ffcfd11688c1e312a4912fbda5072869"
       url "https://github.com/toozej/monogo/releases/download/apps/url2anki/v#{version}/url2anki_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "70a4fd1124752d31ef01dd3cee090c548768dc4f27365a5b6c1eff79bc271950"
+      sha256 "53b3ca06383737199c0e5e6c5cf0ef95d5660f1766127dd058f0d1c9c498f676"
       url "https://github.com/toozej/monogo/releases/download/apps/url2anki/v#{version}/url2anki_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
