@@ -4,12 +4,12 @@ cask "files2prompt" do
 
   on_macos do
     on_intel do
-      sha256 "162bbce940121e60c369aea30a8a1ddacf98ce8ae444577783e1148e59c9cf29"
+      sha256 "90a821810520f2d9e92d72f1d3eeafad762063363865bce2d2d19ca2163cdd99"
       url "https://github.com/toozej/monogo/releases/download/apps/files2prompt/v#{version}/files2prompt_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "eb2147d07c5d9bdba4219b92eca808391655a51f2c125dfe201eeacbee953fef"
+      sha256 "75189dc36d915273b35f2ca85486268ee7bf2d6e4d4e8a3eadd5223308544a92"
       url "https://github.com/toozej/monogo/releases/download/apps/files2prompt/v#{version}/files2prompt_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "files2prompt" do
 
   on_linux do
     on_intel do
-      sha256 "3789552952b982c59bb40fc9530d87afb44b95d746ed56168d4dedb7ed6a50e6"
+      sha256 "b55abf4cab29c0efe886d6e71d4aa052d19c84090c80d72cee993a076fd4f52f"
       url "https://github.com/toozej/monogo/releases/download/apps/files2prompt/v#{version}/files2prompt_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "71b137d4b346d2e7147cccdeec159ecd150e730afb819154bf31e344eff5aba3"
+      sha256 "0f95fd2bd759d1151a606346c252e8202546f6283c48e916a09fd361988a6e8f"
       url "https://github.com/toozej/monogo/releases/download/apps/files2prompt/v#{version}/files2prompt_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
