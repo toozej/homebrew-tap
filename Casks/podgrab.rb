@@ -4,12 +4,12 @@ cask "podgrab" do
 
   on_macos do
     on_intel do
-      sha256 "a976416cdcdf509c11425fa02c55432e8a13e616a0ec676a1784ea60f25fcaa4"
+      sha256 "dc7947b992551515bba44609f70f11eb7a0e8007cf0bfddd5fc6a98dfe654436"
       url "https://github.com/toozej/monogo/releases/download/apps/podgrab/v#{version}/podgrab_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "4a8e3691c59bfe4d69a4aa2e671c15ba2897775be3e489d14851c0fc812d8050"
+      sha256 "87fd5f5445908d4474e07bc2a98dcaeca80d7ec3008eaf40e066aaf5cf8d84f9"
       url "https://github.com/toozej/monogo/releases/download/apps/podgrab/v#{version}/podgrab_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "podgrab" do
 
   on_linux do
     on_intel do
-      sha256 "86c6edc19e3d24a5464138fd7cd087c7fa5a1cd424707c11bf3836d4ef144fec"
+      sha256 "b8548b08917bb445a12cdc9f46259bd73b6547d7c991d6425b49c07d39c21b9c"
       url "https://github.com/toozej/monogo/releases/download/apps/podgrab/v#{version}/podgrab_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "cfbccf4da05395b5cb37e8c3f02e6a7bfa810dc27253058bd42b77a2dae16b0b"
+      sha256 "5f280a6e61581dec66af645e993ef74961ae0f22e304f6ab88414da07e6cb0ca"
       url "https://github.com/toozej/monogo/releases/download/apps/podgrab/v#{version}/podgrab_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
