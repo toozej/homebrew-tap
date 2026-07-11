@@ -4,12 +4,12 @@ cask "go-listen" do
 
   on_macos do
     on_intel do
-      sha256 "15580f237bf55f333a67c81d886c0ff2985533b6292e63d7cf78743f1844b758"
+      sha256 "c6a1bb5113fe5978a295c41e9907980327d1a8faf9092833b7bd9f90b79a8e3e"
       url "https://github.com/toozej/monogo/releases/download/apps/go-listen/v#{version}/go-listen_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "0f8b1ccd4166dc5becf653ab157d02a33dc98f41768dfe426284ae2af6959a3e"
+      sha256 "0b0163f1d2a66e7fe978c7ffa9e17bff5795f70525cb63bcc03ea7247bd2ac2a"
       url "https://github.com/toozej/monogo/releases/download/apps/go-listen/v#{version}/go-listen_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "go-listen" do
 
   on_linux do
     on_intel do
-      sha256 "dee0df0ea27796d0e46236681d831f91ec8d9616a2e591262b8f472722ecfaa9"
+      sha256 "b07ad0ba01042e1014c2750af1096200202b2e09398fa9b175c038d5241d9006"
       url "https://github.com/toozej/monogo/releases/download/apps/go-listen/v#{version}/go-listen_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "888e33febb951ba3f0bbceb878dfae9ac4d5ca6df0487880b2c763e55ad9d104"
+      sha256 "4e616258b6e677cf73215da07f0dc0ebdd0a58896a40eb4c6a9f6b03604466fd"
       url "https://github.com/toozej/monogo/releases/download/apps/go-listen/v#{version}/go-listen_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
