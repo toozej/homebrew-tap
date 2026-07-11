@@ -4,12 +4,12 @@ cask "rssffs" do
 
   on_macos do
     on_intel do
-      sha256 "bc1bfa69c1fccc7caf0129ebd191d64ad10b18b635128d8c97223bd0999ffe30"
+      sha256 "006eecda02a09d2b99544b6794443f3449b482b49ebbc4bec62cfb4ac3487b24"
       url "https://github.com/toozej/monogo/releases/download/apps/RSSFFS/v#{version}/RSSFFS_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "3c952e17db8bfaf228a63e40d20c1f703fde3345984242747c4e138be39892cb"
+      sha256 "3ca0f8b17d88f1cf7880078874cd4b77426f52fae5f9fcf74daec8332ecac27b"
       url "https://github.com/toozej/monogo/releases/download/apps/RSSFFS/v#{version}/RSSFFS_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "rssffs" do
 
   on_linux do
     on_intel do
-      sha256 "7964de5db20eb413e276c1fbe9fb294ffc6c1fcdfa8eee9d1e8fd9cc81f00a77"
+      sha256 "b27598e4af477f700ee899d0f1e1f4dc1d2575800bc46a816839f19e7b4e08fb"
       url "https://github.com/toozej/monogo/releases/download/apps/RSSFFS/v#{version}/RSSFFS_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "122cfe6d3b1a749a62ec605475e7178af392239e5ff2099c477c8ed9846e27f7"
+      sha256 "b9ddafb35f4bb6bd9ddd6afa5b1539840800daeaee3c212e017101a59df7f9e8"
       url "https://github.com/toozej/monogo/releases/download/apps/RSSFFS/v#{version}/RSSFFS_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
