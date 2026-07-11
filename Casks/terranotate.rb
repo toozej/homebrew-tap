@@ -4,12 +4,12 @@ cask "terranotate" do
 
   on_macos do
     on_intel do
-      sha256 "f85e1f6102c247e0ed43c8c1ed9ad06eb5cf5caf6f6c3a8beea8d49e1a7bd3b0"
+      sha256 "9d7e2e393b8be563462bd9e176c8ccb3906493abccf3f8bd66592328a18b3b55"
       url "https://github.com/toozej/monogo/releases/download/apps/terranotate/v#{version}/terranotate_Darwin_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "5d6e280f15b1dd9d0e87ba35b86dbbd6dbdccaab6dba53e7714ab8737cfcb389"
+      sha256 "bf3cd8268751838179f6d19538dca9bab54b836a4f7e66456d4d4b55b6222762"
       url "https://github.com/toozej/monogo/releases/download/apps/terranotate/v#{version}/terranotate_Darwin_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
@@ -17,12 +17,12 @@ cask "terranotate" do
 
   on_linux do
     on_intel do
-      sha256 "a468f6769c61fb249687c904e181caae268b2e68920e9b3db452fc67181068a6"
+      sha256 "0c07fad3d4e646a997dfd5815081f6c5c9eba9b4437db0532af991bccac47515"
       url "https://github.com/toozej/monogo/releases/download/apps/terranotate/v#{version}/terranotate_Linux_x86_64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
     on_arm do
-      sha256 "ec24979e9d6432aa8c9c0c0643f4b1445ac75d1ca74d9791e56b0d6c366a50f8"
+      sha256 "0ef44240013e44ed6fa3165be3431a960a591e238dc382ae6d67f80d9b81b6a2"
       url "https://github.com/toozej/monogo/releases/download/apps/terranotate/v#{version}/terranotate_Linux_arm64.tar.gz",
         verified: "github.com/toozej/monogo/releases/download"
     end
