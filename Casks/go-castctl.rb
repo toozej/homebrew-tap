@@ -4,21 +4,21 @@ cask "go-castctl" do
 
   on_macos do
     on_arm do
-      sha256 "b5ee0baf6a0df75e0d9fa4b53489794073591f1bf8ca3cdcbbb30928a562deb3"
+      sha256 "77d17196675b37608d91ea3753a7f9fc03f228ad9e8c6c89124dde413619bcea"
       url "https://github.com/toozej/monogo/releases/download/apps/go-castctl/v#{version}/go-castctl_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "cfd4d41eb246c2877fbfc1f7812b73549818d2a455a86e26beea08b3fa5d4143"
+      sha256 "8b0186a8e77d121692014ef3c1511845d6f14c20c0f72b732c24a8526c7b63b0"
       url "https://github.com/toozej/monogo/releases/download/apps/go-castctl/v#{version}/go-castctl_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "59179d943c8e4d129b9987ab3ccb70c2b1c211ab89b687900d34423c2040a5bc"
+      sha256 "e7fa94c901342dd747fad8c64a54a705dcd99b666c81dba6fac855c64f7fd39c"
       url "https://github.com/toozej/monogo/releases/download/apps/go-castctl/v#{version}/go-castctl_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2212ad5585272bb8100621b46eb1f7ac6562e425768806493cafe71d0d778115"
+      sha256 "a0e75ef65ba6185066bab6d8a71601632c55336d12b8a195dcc4e57d691125d8"
       url "https://github.com/toozej/monogo/releases/download/apps/go-castctl/v#{version}/go-castctl_Linux_x86_64.tar.gz"
     end
   end
